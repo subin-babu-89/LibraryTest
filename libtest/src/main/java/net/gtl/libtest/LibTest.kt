@@ -5,7 +5,5 @@ import androidx.appcompat.app.AppCompatActivity
 
 abstract class LibTest : AppCompatActivity() {
 
-    fun testlog(message:String){
-        Log.e(this.localClassName,message)
-    }
+    abstract fun testlog(message:String)
 }
